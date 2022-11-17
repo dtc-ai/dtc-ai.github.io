@@ -248,6 +248,11 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
   text-decoration: none;
 }
 
+p > a {
+  color: #0000ff;
+  text-decoration: underline;
+}
+
 pre,
 code,
 kbd,
