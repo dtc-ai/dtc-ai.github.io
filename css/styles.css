@@ -237,7 +237,7 @@ sup {
 
 a {
   color: #1abc9c;
-  text-decoration: underline;
+  text-decoration: none;
 }
 a:hover {
   color: #15967d;
@@ -11465,6 +11465,7 @@ html {
   max-width: 25rem;
   border-radius: 0.5rem;
   overflow: hidden;
+  text-align: center;
 }
 .portfolio .portfolio-item .portfolio-item-caption {
   position: absolute;
@@ -11479,6 +11480,10 @@ html {
 }*/
 .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
   font-size: 1.5rem;
+}
+
+.portfolio-item > h4 {
+  padding-top: 0.5em;
 }
 
 .portfolio-modal .btn-close {
